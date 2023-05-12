@@ -12,7 +12,7 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: createVariableColors(colors),
+    // colors: createVariableColors(colors),
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -21,7 +21,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [variableColorsPlugin(colors)],
+  // plugins: [variableColorsPlugin(colors)],
 
 };
 
